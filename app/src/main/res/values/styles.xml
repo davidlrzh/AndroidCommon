@@ -1,0 +1,12 @@
+<!--
+  ~ Copyright (c) 1997-2015 Niuman. All rights reserved.
+  -->
+
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+</resources>

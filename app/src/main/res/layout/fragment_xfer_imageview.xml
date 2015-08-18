@@ -1,0 +1,37 @@
+<!--
+  ~ Copyright (c) 1997-2015 Niuman. All rights reserved.
+  -->
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    android:background="@android:color/white">
+
+    <cn.niuman.views.NXferImageView
+        android:id="@+id/iv_sendPicture"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="@drawable/bg_xfer_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sample"/>
+
+    <cn.niuman.views.NCircleProgressBar
+        android:id="@+id/pb_progress"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="20dp"
+        app:cpTextColor="#FFff1744"
+        app:cpTextSize="18sp"
+        app:cpBarWidth="4dp"
+        app:cpRimWidth="4dp"
+        app:cpBarColor="#FF40c4ff"
+        app:cpRimColor="#99ff1744"
+        app:cpContourColor="@android:color/transparent"/>
+
+</LinearLayout>

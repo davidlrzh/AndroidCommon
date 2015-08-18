@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 1997-2015 Niuman. All rights reserved.
+  -->
+
+<resources>
+
+    <!--NCircleProgress-->
+    <declare-styleable name="NCircleProgress">
+        <attr name="cpText" format="string" />
+        <attr name="cpTextColor" format="color" />
+        <attr name="cpTextSize" format="dimension" />
+        <attr name="cpBarColor" format="color" />
+        <attr name="cpRimColor" format="color" />
+        <attr name="cpRimWidth" format="dimension" />
+        <attr name="cpSpinSpeed" format="integer" />
+        <attr name="cpCircleColor" format="color" />
+        <attr name="cpRadius" format="dimension" />
+        <attr name="cpBarWidth" format="dimension" />
+        <attr name="cpBarLength" format="dimension" />
+        <attr name="cpDelayMillis" format="dimension"/>
+        <attr name="cpContourColor" format="color"/>
+        <attr name="cpContourSize" format="float"/>
+    </declare-styleable>
+
+    <!--NFlowLinearLayout-->
+    <declare-styleable name="NFlowLinearLayout">
+        <attr name="fllSpaceVertical" format="dimension" />
+        <attr name="fllSpaceHorizontal" format="dimension" />
+    </declare-styleable>
+
+    <!-- 固定高宽比FrameLayout -->
+    <declare-styleable name="NFixRatioFrameLayout">
+        <attr name="frfRatio" format="float|reference" />
+        <attr name="frfScaleType">
+            <enum name="fixWidth" value="1"/>
+            <enum name="fixHeight" value="2"/>
+            <enum name="fitXY" value="3"/>
+        </attr>
+    </declare-styleable>
+
+    <!-- NRoundCornerImageView属性 -->
+    <declare-styleable name="NRoundCornerImageView">
+        <attr name="rivBorderWidth" format="dimension" />
+        <attr name="rivBorderColor" format="color" />
+        <attr name="rivType">
+            <enum name="circle" value="0"/>
+            <enum name="round" value="1"/>
+        </attr>
+    </declare-styleable>
+
+
+</resources>

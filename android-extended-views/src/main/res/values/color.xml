@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  ~ Copyright (c) 1997-2015 Niuman. All rights reserved.
+  -->
+
+<resources>
+    <color name="A_FF">#FF000000</color>
+    <color name="A_AA">#AA000000</color>
+    <color name="B_00">#00000000</color>
+    <color name="C_AA">#AADDDDDD</color>
+
+</resources>
